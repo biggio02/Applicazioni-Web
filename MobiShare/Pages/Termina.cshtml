@@ -1,0 +1,58 @@
+﻿@page
+@model MobiShare.Pages.TerminaModel
+@{
+    var ora = DateTime.Now.ToString("HH:mm");
+}
+
+<div class="container mt-5">
+    <div class="card shadow p-4">
+        <div class="row g-4 align-items-center">
+            <!-- Immagine del mezzo -->
+            <div class="col-md-4 text-center">
+                <img src="images/@(Model.tipoMezzo).jpg" class="img-fluid rounded" alt="Mezzo">
+            </div>
+
+            <!-- Info corsa -->
+            <div class="col-md-8">
+                <h4 class="mb-3">@Model.tipoMezzo</h4>
+
+                <p><strong>Ora di inizio:</strong> @ora </p>
+                <p><strong>Parcheggio di partenza:</strong> @Model.nome</p>
+
+                <p><strong>Tempo trascorso:</strong> <span id="timer" >00:00:00</span></p>
+
+                <form method="post">
+
+                    <label for="select-indirizzo" class="form-label">Indirizzo</label>
+                    <select class="form-select w-50" id="select-indirizzo" name="id_parcheggio">
+                    @foreach(var el in Model.parcheggi)
+                    {
+                        <option value="@el.IdParcheggio">@el.Indirizzo</option>
+                    }
+                    </select>
+
+                    <div class="form-floating mt-3 w-50">
+                        <textarea class="form-control" placeholder="Leave a comment here" name="feedback"id="floatingTextarea2" style="height: 100px"></textarea>
+                        <label for="floatingTextarea2">Comments</label>
+                    </div>
+                    <button class="btn btn-danger btn-lg mt-3">Ferma la corsa</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    let seconds = 0;
+
+    function updateTimer() {
+        seconds++;
+        const hours = String(Math.floor(seconds / 3600)).padStart(2, '0');
+        const minutes = String(Math.floor((seconds % 3600) / 60)).padStart(2, '0');
+        const secs = String(seconds % 60).padStart(2, '0');
+
+        document.getElementById("timer").textContent = `${hours}:${minutes}:${secs}`;
+    }
+
+    setInterval(updateTimer, 1000);
+</script>

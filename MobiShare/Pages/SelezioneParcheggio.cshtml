@@ -1,0 +1,13 @@
+﻿@page
+@model MobiShare.Pages.SelezioneParcheggioModel
+@{
+}
+
+<div class="container-lg mt-5 pt-4">
+
+	@foreach(var el in Model.parcheggi)
+	{
+		
+			<a href="/SelezioneMezzo?parcheggio=@el.IdParcheggio&nome=@el.Indirizzo" class=" mt-4 btn btn-primary btn-lg w-50 text-start fs-4 p-3 d-flex justify-content-between shadow"> <i class="bi bi-arrow-right"></i>@el.Indirizzo</a>
+	}
+</div>

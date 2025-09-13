@@ -1,0 +1,54 @@
+﻿@page
+@model MobiShare.Pages.AggiungiParcheggioModel
+@{
+}
+
+<div class="d-flex flex-column flex-md-row">
+    @await Html.PartialAsync("_Sidebar", Model)
+
+    <div class="container-lg mt-5 pt-4">
+        <h2 class="mb-4">Aggiungi Parcheggio</h2>
+
+        <div id="formParcheggio" class="form mb-4">
+            <div class="card p-4 w-75">
+                <form method="post">
+                    <div class="mb-3">
+                        <label for="indirizzo" class="form-label">Indirizzo</label>
+                        <input type="text" class="form-control" id="indirizzo" name="Indirizzo" placeholder="via roma">
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Aggiungi</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="row">
+            @foreach (var el in Model.parcheggi)
+            {
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="row g-0">
+                            <div class="col-12">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <h5 class="card-title">@el.Indirizzo</h5>
+
+                                        </div>
+                                    </div>
+
+                                    <p class="card-text">@el.NumeroMezzi</p>
+                                    <form method="post" asp-page-handler="Delete">
+                                        <input type="hidden" name="IdParcheggio" value="@el.IdParcheggio"/>
+                                        <button type="submit" class="btn btn-danger @(el.NumeroMezzi == 0 ? "" : "disabled")">elimina</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+
+    </div>
+</div>

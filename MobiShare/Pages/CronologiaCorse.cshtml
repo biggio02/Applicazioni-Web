@@ -1,0 +1,58 @@
+﻿@page
+@model MobiShare.Pages.CronologiaCorseModel
+@{
+    int backOffset = 0;
+    int nextOffset = 0;
+    if (Model.offset == 0)
+    {
+        backOffset = 0;
+        nextOffset += 10;
+    }
+    else
+    {
+        backOffset = Model.offset - 10;
+        nextOffset = Model.offset + 10;
+    }
+}
+
+<div class="d-flex flex-column flex-md-row">
+    @await Html.PartialAsync("_Sidebar",Model)
+
+    <div class="container mt-4 ms-4 pt-5">
+        <div class="d-flex align-items-center gap-2">
+            <h2 class="me-3">Le mie corse</h2>
+
+        </div>
+        @if (Model.corse == null || !Model.corse.Any())
+        {
+            <p class="text-muted">Nessuna corsa trovata.</p>
+        }
+        else
+        {
+            @foreach (var el in Model.corse)
+            {
+
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="images/@(el.Mezzo.TipoMezzo).jpg" class="img-fluid rounded-start card-img-fixed" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">@el.Mezzo.TipoMezzo</h5>
+                                <p class="card-text">Data Inizio: @el.Corsa.DataInizio.ToString()</p>
+                                <p class="card-text">Data Fine: @el.Corsa.DataFine</p>
+                                <p class="card-text m-0">@el.Corsa.CostoCorsa €</p>
+                                <p class="card-text m-0"><small class="text-body-secondary">@el.Corsa.Feedback</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+
+        }
+
+        <a asp-page="CronologiaCorse" asp-route-offset="@backOffset" asp-route-limit="10" class="btn btn-primary"> Back</a>
+        <a asp-page="CronologiaCorse" asp-route-offset="@nextOffset" asp-route-limit="10" class="btn btn-primary"> Next</a>
+    </div>
+</div>

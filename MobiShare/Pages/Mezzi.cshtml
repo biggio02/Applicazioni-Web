@@ -1,0 +1,100 @@
+﻿@page
+@model MobiShare.Pages.MezziModel
+@{
+    var valoreSelezionato = Request.Query["utenteBloccato"];
+    int backOffset = 0;
+    int nextOffset = 0;
+    if (Model.offset == 0)
+    {
+        backOffset = 0;
+        nextOffset += 10;
+    }
+    else
+    {
+        backOffset = Model.offset - 10;
+        nextOffset = Model.offset + 10;
+    }
+}
+
+<div class="d-flex flex-column flex-md-row">
+    @await Html.PartialAsync("_Sidebar", Model)
+
+    <div class="container-lg mt-5 pt-4">
+        <div class="d-flex align-items-center gap-2">
+            <h2 class="me-3">Mezzi</h2>
+        </div>
+
+        <div class="form-floating mb-3">
+            <form method="get" id="filtroForm">
+                <select class="form-select" id="floatingSelect" name="TipoMezzo" aria-label="Floating label select example" onchange="document.getElementById('filtroForm').submit()">
+                    <option selected disabled value="">Seleziona uno stato...</option>
+                    <option value="" selected="@(Model.TipoMezzo == null ? "selected" : null)">Tutti</option>
+                    <option value="monopattino" selected="@(Model.TipoMezzo == "monopattino" ? "selected" : null)">Monopattino</option>
+                    <option value="bici" selected="@(Model.TipoMezzo == "bici" ? "selected" : null)">Bici</option>
+                    <option value="ebike" selected="@(Model.TipoMezzo == "ebike" ? "selected" : null)">Ebike</option>
+                </select>
+            </form>
+        </div>
+        @if (Model.Mezzi == null || !Model.Mezzi.Any())
+        {
+            <p class="text-muted">Nessun mezzo trovato.</p>
+        }
+        else
+        {
+            <div class="row">
+                @foreach (var el in Model.Mezzi)
+                {
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <div class="row g-0">
+                                <div class="col-12">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <h5 class="card-title">@el.TipoMezzo @el.IdMezzo</h5>
+                                            </div>
+                                            <div class="col-6 text-end">
+                                                //mezzo prelevabile
+                                                @if (el.Prelevabile == 1)
+                                                {
+                                                    <span class="badge text-bg-success">Attivo</span>
+                                                }
+                                                //mezzo non prelevabile e fuori da un parcheggio, quindi in uso
+                                                else if(el.Prelevabile == 0 && el.Parcheggio==0)
+                                                {
+                                                    <span class="badge text-bg-danger">In uso</span>
+                                                }
+                                                //mezzo non prelevabile ma dentro un parcheggio oppure con la batteria scarica
+                                                else if ( (el.Prelevabile == 0 && el.Parcheggio != 0) || el.Batteria<=20)
+                                                {
+                                                    <span class="badge text-bg-warning">Manutenzione</span>
+                                                }
+                                            </div>
+                                        </div>
+                                        <p class="card-text">@el.Batteria</p>
+                                        <p class="card-text">@el.Indirizzo</p>
+                                        <div class="d-flex justify-content-start gap-2 mt-3">
+                                            <form method="post" asp-page-handler="Update">
+                                                <input type="hidden" name="IdMezzo" value="@el.IdMezzo" />
+                                                <button type="submit" class="btn btn-primary">Aggiorna stato</button>
+                                            </form>
+                                            <form method="post" asp-page-handler="Delete">
+                                                <input type="hidden" name="IdMezzo" value="@el.IdMezzo" />
+                                                <button type="submit" class="btn btn-danger">Elimina</button>
+                                            </form>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+
+        }
+        <a asp-page="Mezzi" asp-route-TipoMezzo="@Model.TipoMezzo" asp-route-offset="@backOffset" asp-route-limit="10" class="btn btn-primary"> Back</a>
+        <a asp-page="Mezzi" asp-route-TipoMezzo="@Model.TipoMezzo" asp-route-offset="@nextOffset" asp-route-limit="10" class="btn btn-primary"> Next</a>
+
+    </div>
+</div>

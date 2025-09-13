@@ -1,0 +1,46 @@
+﻿@page
+@model MobiShare.Pages.RegistraModel
+@{
+    ViewData["Title"] = "Registra";
+}
+
+
+<div class="container-lg d-flex justify-content-center align-items-center" style="min-height: 80vh;">
+    <div class="card shadow p-4 mt-4" style="width: 100%; max-width: 400px;">
+        <h2 class="text-center mb-4">Registrati</h2>
+        <form method="post">
+            <div class="mb-3">
+                <label asp-for="Username" class="form-label">Username</label>
+                <input class="form-control" asp-for="Username" required>
+                <span asp-validation-for="Username" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Email" class="form-label">Email</label>
+                <input type="email" class="form-control" asp-for="Email" required>
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Password" class="form-label">Password</label>
+                <input type="password" class="form-control" asp-for="Password" required>
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <a class="text-reset" asp-page="/login">Accedi</a>
+            <button type="submit" class="btn btn-primary w-100 mb-2">Crea</button>
+        </form>
+
+    </div>
+</div>
+
+@if (TempData["Message"] != null && (string)TempData["Message"] == "success")
+{
+    <div class="alert alert-success mx-auto w-100">
+        Account creato con successo!
+    </div>
+}
+else if ((string)TempData["Message"] == "error")
+{
+    <div class="alert alert-danger text-align-center mx-auto w-50">
+        Errore nella creazione del account
+    </div>
+}
+<partial name="_ValidationScriptsPartial" />

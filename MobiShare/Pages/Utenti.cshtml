@@ -1,0 +1,86 @@
+﻿@page
+@model MobiShare.Pages.UtentiModel
+@{
+    var valoreSelezionato = Request.Query["utenteBloccato"];
+    int backOffset = 0;
+    int nextOffset=0;
+    if (Model.offset == 0)
+    {
+        backOffset = 0;
+        nextOffset += 10;
+    }
+    else
+    {
+        backOffset = Model.offset-10;
+        nextOffset = Model.offset + 10;
+    }
+
+}
+
+<div class="d-flex flex-column flex-md-row">
+    @await Html.PartialAsync("_Sidebar", Model)
+
+    <div class="container-lg mt-5 pt-4">
+        <div class="d-flex align-items-center gap-2">
+            <h2 class="me-3">Utenti</h2>
+        </div>
+
+        <div class="form-floating mb-3">
+            <form method="get" id="filtroForm">
+                <select class="form-select" id="floatingSelect" name="UtenteBloccato" aria-label="Floating label select example" onchange="document.getElementById('filtroForm').submit()">
+                    <option selected disabled value="">Seleziona uno stato...</option>
+                    <option value="x" selected="@(Model.UtenteBloccato == "x" ? "selected" : null)">Entrambi</option>
+                    <option value="true" selected="@(Model.UtenteBloccato == "true" ? "selected" : null)">Bloccati</option>
+                    <option value="false" selected="@(Model.UtenteBloccato == "false" ? "selected" : null)">Attivi</option>
+                </select>
+            </form>
+        </div>
+        @if (Model.Utenti == null || !Model.Utenti.Any())
+        {
+            <p class="text-muted">Nessun utente trovato.</p>
+        }
+        else
+        {
+            <div class="row">
+                @foreach (var el in Model.Utenti)
+                {
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <div class="row g-0">
+                                <div class="col-12">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <h5 class="card-title">@el.Username</h5>
+                                            </div>
+                                            <div class="col-6 text-end">
+                                                @if (el.Bloccato == false)
+                                                {
+                                                    <span class="badge text-bg-success">Attivo</span>
+                                                }
+                                                else
+                                                {
+                                                    <span class="badge text-bg-danger">Bloccato</span>
+                                                }
+                                                
+                                            </div>
+                                        </div>
+                                        <p class="card-text">@el.Email</p>
+                                        <form method="post">
+                                            <input type="hidden" name="UsernameUtente" value="@el.Username" />
+                                            <button type="submit" class="btn btn-primary">aggiorna stato</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+
+        }
+        <a asp-page="Utenti" asp-route-UtenteBloccato="@Model.UtenteBloccato" asp-route-offset="@backOffset" asp-route-limit="10" class="btn btn-primary"> Back</a>
+        <a asp-page="Utenti" asp-route-UtenteBloccato="@Model.UtenteBloccato" asp-route-offset="@nextOffset" asp-route-limit="10" class="btn btn-primary"> Next</a>
+
+    </div>
+</div>

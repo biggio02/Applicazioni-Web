@@ -1,0 +1,85 @@
+﻿@page
+@model MobiShare.Pages.AccountModel
+@{
+}
+
+<div class="d-flex flex-column flex-md-row">
+    @await Html.PartialAsync("_Sidebar",Model.Utente)
+
+    <div class="container mt-4 ms-4 pt-5">
+        <div class="d-flex align-items-center gap-2">
+            <h2 class="me-3">Ciao @Model.Utente.Username!</h2>
+            @if (Model.Utente.Bloccato == false)
+            {
+                <span class="badge text-bg-success">attivo</span>
+            }
+            else
+            {
+                <span class="badge text-bg-danger">bloccato</span>
+            }
+
+        </div>
+
+        <div class="card shadow-sm p-4 mb-4 mt-4" style="max-width: 500px;">
+            <h4 class="mb-3 align-te"> Account</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item d-flex justify-content-between">
+                    <strong>Email:</strong>
+                    <span>@Model.Utente.Email</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between">
+                    <strong>Credito:</strong>
+                    <span>€ @Model.Utente.Credito.ToString("F2")</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between">
+                    <strong>Punti:</strong>
+                    <span>@Model.Utente.Punti</span>
+                </li>
+            </ul>
+        </div>
+
+        @if (Model.Utente.Google == true)
+        {
+            <div class="alert alert-warning w-50" role="alert">
+                Se vuoi usare l'account anche con username e password
+            </div>
+        }
+        <!-- Bottone che apre il modal -->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+                imposta password
+            </button>
+
+            <!-- Modal con form -->
+            <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="myModalLabel">Inserisci dati</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Chiudi"></button>
+                        </div>
+
+                        <!-- Form nel modal -->
+                        <form method="post">
+                            <div class="modal-body">
+                                <div class="mb-3">
+                                    <label asp-for="Password" class="form-label">Password</label>
+                                    <input asp-for="Password" type="password" class="form-control" required>
+                                </div>
+                            </div>
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Chiudi</button>
+                                <button type="submit" class="btn btn-primary">Salva</button>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+
+        
+
+
+    </div>
+</div>

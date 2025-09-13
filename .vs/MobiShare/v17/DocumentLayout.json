@@ -1,0 +1,986 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|c:\\users\\utente\\aa24-25-gruppo08\\codice\\frontend\\mobishare\\mobishare\\utils\\jwtutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|solutionrelative:mobishare\\utils\\jwtutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|c:\\users\\utente\\aa24-25-gruppo08\\codice\\frontend\\mobishare\\mobishare\\utils\\authutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|solutionrelative:mobishare\\utils\\authutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|c:\\users\\utente\\aa24-25-gruppo08\\codice\\frontend\\mobishare\\mobishare\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|solutionrelative:mobishare\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|c:\\users\\utente\\aa24-25-gruppo08\\codice\\frontend\\mobishare\\mobishare\\services\\parcheggioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|solutionrelative:mobishare\\services\\parcheggioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|c:\\users\\utente\\aa24-25-gruppo08\\codice\\frontend\\mobishare\\mobishare\\services\\mezzoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|solutionrelative:mobishare\\services\\mezzoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|c:\\users\\utente\\aa24-25-gruppo08\\codice\\frontend\\mobishare\\mobishare\\services\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|solutionrelative:mobishare\\services\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|c:\\users\\utente\\aa24-25-gruppo08\\codice\\frontend\\mobishare\\mobishare\\services\\costoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|solutionrelative:mobishare\\services\\costoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|c:\\users\\utente\\aa24-25-gruppo08\\codice\\frontend\\mobishare\\mobishare\\services\\corsaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|solutionrelative:mobishare\\services\\corsaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|c:\\users\\utente\\aa24-25-gruppo08\\codice\\frontend\\mobishare\\mobishare\\services\\cartaprepagataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|solutionrelative:mobishare\\services\\cartaprepagataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|c:\\users\\utente\\aa24-25-gruppo08\\codice\\frontend\\mobishare\\mobishare\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|solutionrelative:mobishare\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|c:\\users\\utente\\aa24-25-gruppo08\\codice\\frontend\\mobishare\\mobishare\\pages\\utenti.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|solutionrelative:mobishare\\pages\\utenti.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|c:\\users\\utente\\aa24-25-gruppo08\\codice\\frontend\\mobishare\\mobishare\\pages\\utenti.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|solutionrelative:mobishare\\pages\\utenti.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|c:\\users\\utente\\aa24-25-gruppo08\\codice\\frontend\\mobishare\\mobishare\\pages\\termina.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|solutionrelative:mobishare\\pages\\termina.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|c:\\users\\utente\\aa24-25-gruppo08\\codice\\frontend\\mobishare\\mobishare\\pages\\termina.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|solutionrelative:mobishare\\pages\\termina.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|c:\\users\\utente\\aa24-25-gruppo08\\codice\\frontend\\mobishare\\mobishare\\pages\\shop.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|solutionrelative:mobishare\\pages\\shop.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|c:\\users\\utente\\aa24-25-gruppo08\\codice\\frontend\\mobishare\\mobishare\\pages\\shop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|solutionrelative:mobishare\\pages\\shop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|c:\\users\\utente\\aa24-25-gruppo08\\codice\\frontend\\mobishare\\mobishare\\pages\\selezioneparcheggio.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|solutionrelative:mobishare\\pages\\selezioneparcheggio.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|c:\\users\\utente\\aa24-25-gruppo08\\codice\\frontend\\mobishare\\mobishare\\pages\\selezioneparcheggio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|solutionrelative:mobishare\\pages\\selezioneparcheggio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|c:\\users\\utente\\aa24-25-gruppo08\\codice\\frontend\\mobishare\\mobishare\\pages\\selezionemezzo.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|solutionrelative:mobishare\\pages\\selezionemezzo.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|c:\\users\\utente\\aa24-25-gruppo08\\codice\\frontend\\mobishare\\mobishare\\pages\\selezionemezzo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|solutionrelative:mobishare\\pages\\selezionemezzo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|c:\\users\\utente\\aa24-25-gruppo08\\codice\\frontend\\mobishare\\mobishare\\pages\\ricarica.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|solutionrelative:mobishare\\pages\\ricarica.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|c:\\users\\utente\\aa24-25-gruppo08\\codice\\frontend\\mobishare\\mobishare\\pages\\ricarica.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|solutionrelative:mobishare\\pages\\ricarica.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|c:\\users\\utente\\aa24-25-gruppo08\\codice\\frontend\\mobishare\\mobishare\\pages\\registra.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|solutionrelative:mobishare\\pages\\registra.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|c:\\users\\utente\\aa24-25-gruppo08\\codice\\frontend\\mobishare\\mobishare\\pages\\registra.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|solutionrelative:mobishare\\pages\\registra.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|c:\\users\\utente\\aa24-25-gruppo08\\codice\\frontend\\mobishare\\mobishare\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|solutionrelative:mobishare\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|c:\\users\\utente\\aa24-25-gruppo08\\codice\\frontend\\mobishare\\mobishare\\pages\\modificaprezzi.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|solutionrelative:mobishare\\pages\\modificaprezzi.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|c:\\users\\utente\\aa24-25-gruppo08\\codice\\frontend\\mobishare\\mobishare\\pages\\modificaprezzi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|solutionrelative:mobishare\\pages\\modificaprezzi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|c:\\users\\utente\\aa24-25-gruppo08\\codice\\frontend\\mobishare\\mobishare\\pages\\mezzi.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|solutionrelative:mobishare\\pages\\mezzi.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|c:\\users\\utente\\aa24-25-gruppo08\\codice\\frontend\\mobishare\\mobishare\\pages\\mezzi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|solutionrelative:mobishare\\pages\\mezzi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|c:\\users\\utente\\aa24-25-gruppo08\\codice\\frontend\\mobishare\\mobishare\\pages\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|solutionrelative:mobishare\\pages\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|c:\\users\\utente\\aa24-25-gruppo08\\codice\\frontend\\mobishare\\mobishare\\pages\\logingoogle.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|solutionrelative:mobishare\\pages\\logingoogle.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|c:\\users\\utente\\aa24-25-gruppo08\\codice\\frontend\\mobishare\\mobishare\\pages\\logingoogle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|solutionrelative:mobishare\\pages\\logingoogle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|c:\\users\\utente\\aa24-25-gruppo08\\codice\\frontend\\mobishare\\mobishare\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|solutionrelative:mobishare\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|c:\\users\\utente\\aa24-25-gruppo08\\codice\\frontend\\mobishare\\mobishare\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|solutionrelative:mobishare\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|c:\\users\\utente\\aa24-25-gruppo08\\codice\\frontend\\mobishare\\mobishare\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|solutionrelative:mobishare\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|c:\\users\\utente\\aa24-25-gruppo08\\codice\\frontend\\mobishare\\mobishare\\pages\\googlecallback.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|solutionrelative:mobishare\\pages\\googlecallback.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|c:\\users\\utente\\aa24-25-gruppo08\\codice\\frontend\\mobishare\\mobishare\\pages\\googlecallback.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|solutionrelative:mobishare\\pages\\googlecallback.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|c:\\users\\utente\\aa24-25-gruppo08\\codice\\frontend\\mobishare\\mobishare\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|solutionrelative:mobishare\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|c:\\users\\utente\\aa24-25-gruppo08\\codice\\frontend\\mobishare\\mobishare\\pages\\cronologiapagamenti.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|solutionrelative:mobishare\\pages\\cronologiapagamenti.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|c:\\users\\utente\\aa24-25-gruppo08\\codice\\frontend\\mobishare\\mobishare\\pages\\cronologiapagamenti.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|solutionrelative:mobishare\\pages\\cronologiapagamenti.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|c:\\users\\utente\\aa24-25-gruppo08\\codice\\frontend\\mobishare\\mobishare\\pages\\cronologiacorse.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|solutionrelative:mobishare\\pages\\cronologiacorse.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|c:\\users\\utente\\aa24-25-gruppo08\\codice\\frontend\\mobishare\\mobishare\\pages\\cronologiacorse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|solutionrelative:mobishare\\pages\\cronologiacorse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|c:\\users\\utente\\aa24-25-gruppo08\\codice\\frontend\\mobishare\\mobishare\\pages\\aggiungiparcheggio.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|solutionrelative:mobishare\\pages\\aggiungiparcheggio.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|c:\\users\\utente\\aa24-25-gruppo08\\codice\\frontend\\mobishare\\mobishare\\pages\\aggiungiparcheggio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|solutionrelative:mobishare\\pages\\aggiungiparcheggio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|c:\\users\\utente\\aa24-25-gruppo08\\codice\\frontend\\mobishare\\mobishare\\pages\\aggiungimezzo.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|solutionrelative:mobishare\\pages\\aggiungimezzo.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|c:\\users\\utente\\aa24-25-gruppo08\\codice\\frontend\\mobishare\\mobishare\\pages\\aggiungimezzo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|solutionrelative:mobishare\\pages\\aggiungimezzo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|c:\\users\\utente\\aa24-25-gruppo08\\codice\\frontend\\mobishare\\mobishare\\pages\\account.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|solutionrelative:mobishare\\pages\\account.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|c:\\users\\utente\\aa24-25-gruppo08\\codice\\frontend\\mobishare\\mobishare\\pages\\account.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|solutionrelative:mobishare\\pages\\account.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|c:\\users\\utente\\aa24-25-gruppo08\\codice\\frontend\\mobishare\\mobishare\\models\\ricarica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|solutionrelative:mobishare\\models\\ricarica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|c:\\users\\utente\\aa24-25-gruppo08\\codice\\frontend\\mobishare\\mobishare\\models\\utente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|solutionrelative:mobishare\\models\\utente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|c:\\users\\utente\\aa24-25-gruppo08\\codice\\frontend\\mobishare\\mobishare\\models\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|solutionrelative:mobishare\\models\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|c:\\users\\utente\\aa24-25-gruppo08\\codice\\frontend\\mobishare\\mobishare\\models\\mezzo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|solutionrelative:mobishare\\models\\mezzo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|c:\\users\\utente\\aa24-25-gruppo08\\codice\\frontend\\mobishare\\mobishare\\models\\cronologiacorse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|solutionrelative:mobishare\\models\\cronologiacorse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|c:\\users\\utente\\aa24-25-gruppo08\\codice\\frontend\\mobishare\\mobishare\\models\\corsa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|solutionrelative:mobishare\\models\\corsa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|c:\\users\\utente\\aa24-25-gruppo08\\codice\\frontend\\mobishare\\mobishare\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|solutionrelative:mobishare\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|c:\\users\\utente\\aa24-25-gruppo08\\codice\\frontend\\mobishare\\mobishare\\wwwroot\\ordini.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|solutionrelative:mobishare\\wwwroot\\ordini.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|c:\\users\\utente\\aa24-25-gruppo08\\codice\\frontend\\mobishare\\mobishare\\wwwroot\\confermaordine.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{266718CD-9E64-4F73-BD97-F7C7C8D64A43}|MobiShare\\MobiShare.csproj|solutionrelative:mobishare\\wwwroot\\confermaordine.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 56,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthUtil.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Utils\\AuthUtil.cs",
+              "RelativeDocumentMoniker": "MobiShare\\Utils\\AuthUtil.cs",
+              "ToolTip": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Utils\\AuthUtil.cs",
+              "RelativeToolTip": "MobiShare\\Utils\\AuthUtil.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T10:33:44.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "MobiShare\\Services\\TokenService.cs",
+              "ToolTip": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Services\\TokenService.cs",
+              "RelativeToolTip": "MobiShare\\Services\\TokenService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T10:33:31.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IAccountService.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Services\\IAccountService.cs",
+              "RelativeDocumentMoniker": "MobiShare\\Services\\IAccountService.cs",
+              "ToolTip": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Services\\IAccountService.cs",
+              "RelativeToolTip": "MobiShare\\Services\\IAccountService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T10:33:14.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CostoService.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Services\\CostoService.cs",
+              "RelativeDocumentMoniker": "MobiShare\\Services\\CostoService.cs",
+              "ToolTip": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Services\\CostoService.cs",
+              "RelativeToolTip": "MobiShare\\Services\\CostoService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T10:33:09.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CorsaService.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Services\\CorsaService.cs",
+              "RelativeDocumentMoniker": "MobiShare\\Services\\CorsaService.cs",
+              "ToolTip": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Services\\CorsaService.cs",
+              "RelativeToolTip": "MobiShare\\Services\\CorsaService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T10:32:59.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CartaPrepagataService.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Services\\CartaPrepagataService.cs",
+              "RelativeDocumentMoniker": "MobiShare\\Services\\CartaPrepagataService.cs",
+              "ToolTip": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Services\\CartaPrepagataService.cs",
+              "RelativeToolTip": "MobiShare\\Services\\CartaPrepagataService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T10:32:55.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AccountService.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Services\\AccountService.cs",
+              "RelativeDocumentMoniker": "MobiShare\\Services\\AccountService.cs",
+              "ToolTip": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Services\\AccountService.cs",
+              "RelativeToolTip": "MobiShare\\Services\\AccountService.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T10:32:48.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Utenti.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\Utenti.cshtml.cs",
+              "RelativeDocumentMoniker": "MobiShare\\Pages\\Utenti.cshtml.cs",
+              "ToolTip": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\Utenti.cshtml.cs",
+              "RelativeToolTip": "MobiShare\\Pages\\Utenti.cshtml.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T10:32:44.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SelezioneParcheggio.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\SelezioneParcheggio.cshtml.cs",
+              "RelativeDocumentMoniker": "MobiShare\\Pages\\SelezioneParcheggio.cshtml.cs",
+              "ToolTip": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\SelezioneParcheggio.cshtml.cs",
+              "RelativeToolTip": "MobiShare\\Pages\\SelezioneParcheggio.cshtml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T10:31:58.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SelezioneParcheggio.cshtml",
+              "DocumentMoniker": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\SelezioneParcheggio.cshtml",
+              "RelativeDocumentMoniker": "MobiShare\\Pages\\SelezioneParcheggio.cshtml",
+              "ToolTip": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\SelezioneParcheggio.cshtml",
+              "RelativeToolTip": "MobiShare\\Pages\\SelezioneParcheggio.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-13T10:31:54.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Ricarica.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\Ricarica.cshtml.cs",
+              "RelativeDocumentMoniker": "MobiShare\\Pages\\Ricarica.cshtml.cs",
+              "ToolTip": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\Ricarica.cshtml.cs",
+              "RelativeToolTip": "MobiShare\\Pages\\Ricarica.cshtml.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T10:31:35.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Registra.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\Registra.cshtml.cs",
+              "RelativeDocumentMoniker": "MobiShare\\Pages\\Registra.cshtml.cs",
+              "ToolTip": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\Registra.cshtml.cs",
+              "RelativeToolTip": "MobiShare\\Pages\\Registra.cshtml.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T10:29:14.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Registra.cshtml",
+              "DocumentMoniker": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\Registra.cshtml",
+              "RelativeDocumentMoniker": "MobiShare\\Pages\\Registra.cshtml",
+              "ToolTip": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\Registra.cshtml",
+              "RelativeToolTip": "MobiShare\\Pages\\Registra.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-13T10:29:09.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "MobiShare\\Pages\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\Privacy.cshtml",
+              "RelativeToolTip": "MobiShare\\Pages\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-13T10:29:06.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ModificaPrezzi.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\ModificaPrezzi.cshtml.cs",
+              "RelativeDocumentMoniker": "MobiShare\\Pages\\ModificaPrezzi.cshtml.cs",
+              "ToolTip": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\ModificaPrezzi.cshtml.cs",
+              "RelativeToolTip": "MobiShare\\Pages\\ModificaPrezzi.cshtml.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T10:29:03.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\Logout.cshtml",
+              "RelativeDocumentMoniker": "MobiShare\\Pages\\Logout.cshtml",
+              "ToolTip": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\Logout.cshtml",
+              "RelativeToolTip": "MobiShare\\Pages\\Logout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-13T10:28:49.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "LoginGoogle.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\LoginGoogle.cshtml.cs",
+              "RelativeDocumentMoniker": "MobiShare\\Pages\\LoginGoogle.cshtml.cs",
+              "ToolTip": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\LoginGoogle.cshtml.cs",
+              "RelativeToolTip": "MobiShare\\Pages\\LoginGoogle.cshtml.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T10:28:42.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "LoginGoogle.cshtml",
+              "DocumentMoniker": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\LoginGoogle.cshtml",
+              "RelativeDocumentMoniker": "MobiShare\\Pages\\LoginGoogle.cshtml",
+              "ToolTip": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\LoginGoogle.cshtml",
+              "RelativeToolTip": "MobiShare\\Pages\\LoginGoogle.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-13T10:28:40.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "MobiShare\\Pages\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\Login.cshtml.cs",
+              "RelativeToolTip": "MobiShare\\Pages\\Login.cshtml.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T10:28:35.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\Login.cshtml",
+              "RelativeDocumentMoniker": "MobiShare\\Pages\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\Login.cshtml",
+              "RelativeToolTip": "MobiShare\\Pages\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-13T10:28:28.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "GoogleCallback.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\GoogleCallback.cshtml.cs",
+              "RelativeDocumentMoniker": "MobiShare\\Pages\\GoogleCallback.cshtml.cs",
+              "ToolTip": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\GoogleCallback.cshtml.cs",
+              "RelativeToolTip": "MobiShare\\Pages\\GoogleCallback.cshtml.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T10:28:16.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "GoogleCallback.cshtml",
+              "DocumentMoniker": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\GoogleCallback.cshtml",
+              "RelativeDocumentMoniker": "MobiShare\\Pages\\GoogleCallback.cshtml",
+              "ToolTip": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\GoogleCallback.cshtml",
+              "RelativeToolTip": "MobiShare\\Pages\\GoogleCallback.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-13T10:28:14.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\Error.cshtml",
+              "RelativeDocumentMoniker": "MobiShare\\Pages\\Error.cshtml",
+              "ToolTip": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\Error.cshtml",
+              "RelativeToolTip": "MobiShare\\Pages\\Error.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-13T10:28:06.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "CronologiaPagamenti.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\CronologiaPagamenti.cshtml.cs",
+              "RelativeDocumentMoniker": "MobiShare\\Pages\\CronologiaPagamenti.cshtml.cs",
+              "ToolTip": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\CronologiaPagamenti.cshtml.cs",
+              "RelativeToolTip": "MobiShare\\Pages\\CronologiaPagamenti.cshtml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T10:28:00.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "CronologiaPagamenti.cshtml",
+              "DocumentMoniker": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\CronologiaPagamenti.cshtml",
+              "RelativeDocumentMoniker": "MobiShare\\Pages\\CronologiaPagamenti.cshtml",
+              "ToolTip": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\CronologiaPagamenti.cshtml",
+              "RelativeToolTip": "MobiShare\\Pages\\CronologiaPagamenti.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-13T10:27:57.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "AggiungiParcheggio.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\AggiungiParcheggio.cshtml.cs",
+              "RelativeDocumentMoniker": "MobiShare\\Pages\\AggiungiParcheggio.cshtml.cs",
+              "ToolTip": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\AggiungiParcheggio.cshtml.cs",
+              "RelativeToolTip": "MobiShare\\Pages\\AggiungiParcheggio.cshtml.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAA/wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T10:27:40.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Account.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\Account.cshtml.cs",
+              "RelativeDocumentMoniker": "MobiShare\\Pages\\Account.cshtml.cs",
+              "ToolTip": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\Account.cshtml.cs",
+              "RelativeToolTip": "MobiShare\\Pages\\Account.cshtml.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowDEAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T10:26:42.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Account.cshtml",
+              "DocumentMoniker": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\Account.cshtml",
+              "RelativeDocumentMoniker": "MobiShare\\Pages\\Account.cshtml",
+              "ToolTip": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\Account.cshtml",
+              "RelativeToolTip": "MobiShare\\Pages\\Account.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAC0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-14T10:54:15.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Ricarica.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Models\\Ricarica.cs",
+              "RelativeDocumentMoniker": "MobiShare\\Models\\Ricarica.cs",
+              "ToolTip": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Models\\Ricarica.cs",
+              "RelativeToolTip": "MobiShare\\Models\\Ricarica.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T10:44:13.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Token.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Models\\Token.cs",
+              "RelativeDocumentMoniker": "MobiShare\\Models\\Token.cs",
+              "ToolTip": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Models\\Token.cs",
+              "RelativeToolTip": "MobiShare\\Models\\Token.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T10:44:11.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Utente.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Models\\Utente.cs",
+              "RelativeDocumentMoniker": "MobiShare\\Models\\Utente.cs",
+              "ToolTip": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Models\\Utente.cs",
+              "RelativeToolTip": "MobiShare\\Models\\Utente.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAUwDQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T10:42:39.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Mezzi.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\Mezzi.cshtml.cs",
+              "RelativeDocumentMoniker": "MobiShare\\Pages\\Mezzi.cshtml.cs",
+              "ToolTip": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\Mezzi.cshtml.cs",
+              "RelativeToolTip": "MobiShare\\Pages\\Mezzi.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T10:22:35.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "AggiungiParcheggio.cshtml",
+              "DocumentMoniker": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\AggiungiParcheggio.cshtml",
+              "RelativeDocumentMoniker": "MobiShare\\Pages\\AggiungiParcheggio.cshtml",
+              "ToolTip": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\AggiungiParcheggio.cshtml",
+              "RelativeToolTip": "MobiShare\\Pages\\AggiungiParcheggio.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-14T10:13:54.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Utenti.cshtml",
+              "DocumentMoniker": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\Utenti.cshtml",
+              "RelativeDocumentMoniker": "MobiShare\\Pages\\Utenti.cshtml",
+              "ToolTip": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\Utenti.cshtml",
+              "RelativeToolTip": "MobiShare\\Pages\\Utenti.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-14T10:13:21.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ModificaPrezzi.cshtml",
+              "DocumentMoniker": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\ModificaPrezzi.cshtml",
+              "RelativeDocumentMoniker": "MobiShare\\Pages\\ModificaPrezzi.cshtml",
+              "ToolTip": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\ModificaPrezzi.cshtml",
+              "RelativeToolTip": "MobiShare\\Pages\\ModificaPrezzi.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-14T10:12:53.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Mezzi.cshtml",
+              "DocumentMoniker": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\Mezzi.cshtml",
+              "RelativeDocumentMoniker": "MobiShare\\Pages\\Mezzi.cshtml",
+              "ToolTip": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\Mezzi.cshtml",
+              "RelativeToolTip": "MobiShare\\Pages\\Mezzi.cshtml",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAEIAAABnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-14T10:12:14.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Termina.cshtml",
+              "DocumentMoniker": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\Termina.cshtml",
+              "RelativeDocumentMoniker": "MobiShare\\Pages\\Termina.cshtml",
+              "ToolTip": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\Termina.cshtml",
+              "RelativeToolTip": "MobiShare\\Pages\\Termina.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-14T09:09:05.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ParcheggioService.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Services\\ParcheggioService.cs",
+              "RelativeDocumentMoniker": "MobiShare\\Services\\ParcheggioService.cs",
+              "ToolTip": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Services\\ParcheggioService.cs",
+              "RelativeToolTip": "MobiShare\\Services\\ParcheggioService.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwBkAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T09:17:37.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Ricarica.cshtml",
+              "DocumentMoniker": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\Ricarica.cshtml",
+              "RelativeDocumentMoniker": "MobiShare\\Pages\\Ricarica.cshtml",
+              "ToolTip": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\Ricarica.cshtml",
+              "RelativeToolTip": "MobiShare\\Pages\\Ricarica.cshtml",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-14T09:13:48.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Termina.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\Termina.cshtml.cs",
+              "RelativeDocumentMoniker": "MobiShare\\Pages\\Termina.cshtml.cs",
+              "ToolTip": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\Termina.cshtml.cs",
+              "RelativeToolTip": "MobiShare\\Pages\\Termina.cshtml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAiwDkAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T09:09:07.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SelezioneMezzo.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\SelezioneMezzo.cshtml.cs",
+              "RelativeDocumentMoniker": "MobiShare\\Pages\\SelezioneMezzo.cshtml.cs",
+              "ToolTip": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\SelezioneMezzo.cshtml.cs",
+              "RelativeToolTip": "MobiShare\\Pages\\SelezioneMezzo.cshtml.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAswCoAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T09:02:33.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SelezioneMezzo.cshtml",
+              "DocumentMoniker": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\SelezioneMezzo.cshtml",
+              "RelativeDocumentMoniker": "MobiShare\\Pages\\SelezioneMezzo.cshtml",
+              "ToolTip": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\SelezioneMezzo.cshtml",
+              "RelativeToolTip": "MobiShare\\Pages\\SelezioneMezzo.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-14T08:38:44.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "ordini.html",
+              "DocumentMoniker": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\wwwroot\\ordini.html",
+              "RelativeDocumentMoniker": "MobiShare\\wwwroot\\ordini.html",
+              "ToolTip": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\wwwroot\\ordini.html",
+              "RelativeToolTip": "MobiShare\\wwwroot\\ordini.html",
+              "ViewState": "AgIAAGsAAAAAAAAAAEBlwIkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-07-13T21:00:24.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "CronologiaCorse.cshtml",
+              "DocumentMoniker": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\CronologiaCorse.cshtml",
+              "RelativeDocumentMoniker": "MobiShare\\Pages\\CronologiaCorse.cshtml",
+              "ToolTip": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\CronologiaCorse.cshtml",
+              "RelativeToolTip": "MobiShare\\Pages\\CronologiaCorse.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADcAAAB7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-13T21:00:12.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "CronologiaCorse.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\CronologiaCorse.cshtml.cs",
+              "RelativeDocumentMoniker": "MobiShare\\Pages\\CronologiaCorse.cshtml.cs",
+              "ToolTip": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\CronologiaCorse.cshtml.cs",
+              "RelativeToolTip": "MobiShare\\Pages\\CronologiaCorse.cshtml.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAwB0AAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T21:00:09.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "AggiungiMezzo.cshtml",
+              "DocumentMoniker": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\AggiungiMezzo.cshtml",
+              "RelativeDocumentMoniker": "MobiShare\\Pages\\AggiungiMezzo.cshtml",
+              "ToolTip": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\AggiungiMezzo.cshtml",
+              "RelativeToolTip": "MobiShare\\Pages\\AggiungiMezzo.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABcAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-13T19:50:35.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "AggiungiMezzo.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\AggiungiMezzo.cshtml.cs",
+              "RelativeDocumentMoniker": "MobiShare\\Pages\\AggiungiMezzo.cshtml.cs",
+              "ToolTip": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\AggiungiMezzo.cshtml.cs",
+              "RelativeToolTip": "MobiShare\\Pages\\AggiungiMezzo.cshtml.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAqwCAAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T19:46:32.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Shop.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\Shop.cshtml.cs",
+              "RelativeDocumentMoniker": "MobiShare\\Pages\\Shop.cshtml.cs",
+              "ToolTip": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\Shop.cshtml.cs",
+              "RelativeToolTip": "MobiShare\\Pages\\Shop.cshtml.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAswBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T19:16:07.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Shop.cshtml",
+              "DocumentMoniker": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\Shop.cshtml",
+              "RelativeDocumentMoniker": "MobiShare\\Pages\\Shop.cshtml",
+              "ToolTip": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\Shop.cshtml",
+              "RelativeToolTip": "MobiShare\\Pages\\Shop.cshtml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAABAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-13T19:16:05.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "MobiShare\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Pages\\Index.cshtml",
+              "RelativeToolTip": "MobiShare\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-13T16:51:00.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "MobiShare\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "MobiShare\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-07-13T16:48:45.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MezzoService.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Services\\MezzoService.cs",
+              "RelativeDocumentMoniker": "MobiShare\\Services\\MezzoService.cs",
+              "ToolTip": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Services\\MezzoService.cs",
+              "RelativeToolTip": "MobiShare\\Services\\MezzoService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwCcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T16:26:41.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Mezzo.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Models\\Mezzo.cs",
+              "RelativeDocumentMoniker": "MobiShare\\Models\\Mezzo.cs",
+              "ToolTip": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Models\\Mezzo.cs",
+              "RelativeToolTip": "MobiShare\\Models\\Mezzo.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA9wBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T16:26:23.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "CronologiaCorse.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Models\\CronologiaCorse.cs",
+              "RelativeDocumentMoniker": "MobiShare\\Models\\CronologiaCorse.cs",
+              "ToolTip": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Models\\CronologiaCorse.cs",
+              "RelativeToolTip": "MobiShare\\Models\\CronologiaCorse.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T16:23:34.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "confermaOrdine.html",
+              "DocumentMoniker": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\wwwroot\\confermaOrdine.html",
+              "RelativeDocumentMoniker": "MobiShare\\wwwroot\\confermaOrdine.html",
+              "ToolTip": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\wwwroot\\confermaOrdine.html",
+              "RelativeToolTip": "MobiShare\\wwwroot\\confermaOrdine.html",
+              "ViewState": "AgIAAAQAAAAAAAAAAABhwC4AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-07-13T16:20:47.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Corsa.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Models\\Corsa.cs",
+              "RelativeDocumentMoniker": "MobiShare\\Models\\Corsa.cs",
+              "ToolTip": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Models\\Corsa.cs",
+              "RelativeToolTip": "MobiShare\\Models\\Corsa.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA5wCAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T16:18:01.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "JwtUtil.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Utils\\JwtUtil.cs",
+              "RelativeDocumentMoniker": "MobiShare\\Utils\\JwtUtil.cs",
+              "ToolTip": "C:\\Users\\Utente\\aa24-25-gruppo08\\codice\\frontend\\MobiShare\\MobiShare\\Utils\\JwtUtil.cs",
+              "RelativeToolTip": "MobiShare\\Utils\\JwtUtil.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAQwEMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T15:58:58.31Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

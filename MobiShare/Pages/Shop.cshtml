@@ -1,0 +1,100 @@
+@page
+@model MobiShare.Pages.ShopModel
+@{
+}
+
+<div class="d-flex flex-column flex-md-row">
+    @await Html.PartialAsync("_Sidebar", Model)
+
+    <div class="container mt-4 ms-4 pt-5">
+        <h2 class="mb-4">Acquista le giftcards</h2>
+
+        @if (Model.prepagata != null)
+        {
+            <div class="alert alert-success">
+                <strong>Giftcard generata!</strong><br />
+                Codice: @Model.prepagata.Codice<br />
+                Valore: @Model.prepagata.Valore €
+            </div>
+        }
+
+        else if ((string)TempData["errore"] == "errore")
+        {
+            <div class="alert alert-danger  mt-4 mx-auto w-50">
+                Errore nella creazione della giftcard
+            </div>
+        }
+
+        <div class="container-lg py-5">
+            <div class="row g-4">
+
+                <!-- Card 1 -->
+                <div class="col-md-4">
+                    <div class="card giftcard-card h-100">
+                        <div class="card-header radius text-center giftcard-bg-10">
+                            <h4 class="mb-0">Gift Card</h4>
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title">€10,00</h5>
+                            <p class="mb-0">1000 punti</p>
+                            <p class="card-text">Perfetta per un piccolo regalo smart!</p>
+
+                            <form method="post">
+                                <input type="hidden" name="valore" value="1000" />
+                                <button type="submit" class="btn giftcard-bg-10">Acquista ora</button>
+                            </form>
+                        </div>
+                        <div class="card-footer text-muted text-center">
+                            Valida 12 mesi
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col-md-4">
+                    <div class="card giftcard-card h-100">
+                        <div class="card-header radius text-center giftcard-bg-25">
+                            <h4 class="mb-0">Gift Card</h4>
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title">€25,00</h5>
+                            <p class="mb-0">2500 punti</p>
+                            <p class="card-text">Ideale per più noleggi in città!</p>
+                            <form method="post">
+                                <input type="hidden" name="valore" value="2500" />
+                                <button type="submit" class="btn giftcard-bg-25">Acquista ora</button>
+                            </form>
+                        </div>
+                        <div class="card-footer text-muted text-center">
+                            Valida 12 mesi
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="col-md-4">
+                    <div class="card giftcard-card h-100">
+                        <div class="card-header radius text-center giftcard-bg-50">
+                            <h4 class="mb-0">Gift Card</h4>
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title">€50,00</h5>
+                            <p class="mb-0">5000 punti</p>
+                            <p class="card-text">Il regalo perfetto per veri esploratori urbani.</p>
+                            <form method="post">
+                                <input type="hidden" name="valore" value="2500" />
+                                <button class="btn giftcard-bg-50">Acquista ora</button>
+                            </form>
+
+                        </div>
+                        <div class="card-footer text-muted text-center">
+                            Valida 12 mesi
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>

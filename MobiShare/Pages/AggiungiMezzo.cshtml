@@ -1,0 +1,52 @@
+﻿@page
+@model MobiShare.Pages.AggiungiMezzoModel
+@{
+}
+
+
+<div class="d-flex flex-column flex-md-row">
+    @await Html.PartialAsync("_Sidebar", Model)
+
+    <div class="container-lg mt-5 pt-4">
+        <h2 class="mb-4">Aggiungi Mezzo</h2>
+
+        <div id="formParcheggio" class="form">
+            <div class="card p-4 w-75">
+                <form method="post">
+                    <label for="select-mezzo" class="form-label">Tipo Mezzo</label>
+                    <select class="form-select" id="select-mezzo" name="tipo_mezzo">
+                        <option value="bici">Bici</option>
+                        <option value="ebike">Ebike</option>
+                        <option value="monopattino">Monopattino</option>
+                    </select>
+
+                    <label for="select-indirizzo" class="form-label">Indirizzo</label>
+                    <select class="form-select" id="select-indirizzo" name="id_parcheggio">
+                        @foreach(var el in Model.parcheggi)
+                        {
+                            <option value="@el.IdParcheggio">@el.Indirizzo</option>
+                        }
+                    </select>
+
+                    <div class="mb-3">
+                        <label for="batteria" class="form-label">Batteria</label>
+                        <input type="text" class="form-control" id="batteria" name="batteria" placeholder="80">
+                    </div>
+
+                    <div class="form-check mb-3">
+                        <input type="hidden" name="bloccato" value="0">
+
+                        <input class="form-check-input" name="prelevabile" type="checkbox" value="1" id="checkDefault">
+                        <label class="form-check-label" for="checkDefault">
+                            prelevabile
+                        </label>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Aggiungi</button>
+                </form>
+            </div>
+        </div>
+
+
+    </div>
+</div>

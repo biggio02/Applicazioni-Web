@@ -1,0 +1,157 @@
+﻿@page
+@model MobiShare.Pages.SelezioneMezzoModel
+@{
+    var bici = Model.mezzi.Where(el => el.TipoMezzo == "bici");
+    var monopattino = Model.mezzi.Where(el => el.TipoMezzo == "monopattino");
+    var ebike = Model.mezzi.Where(el => el.TipoMezzo == "ebike");
+}
+
+<div class="container-lg mt-5 pt-4 d-grid">
+    <h3 class="mb-4">Seleziona un mezzo</h3>
+
+    <p class="d-inline-flex gap-1">
+
+        <button class="btn btn-primary w-25" type="button" data-bs-toggle="collapse" data-bs-target="#bici" aria-expanded="false" aria-controls="container">
+            Bici <i class="bi bi-arrow-down-short" id="icon-bici"></i>
+        </button>
+    </p>
+
+    <div id="bici" class="container p-0 collapse show">
+
+        @if(bici==null || bici.Count() == 0)
+        {
+            <p>mezzi non disponibili</p>
+        }
+        else
+        {
+            @foreach (var el in bici)
+            {
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="images/@(el.TipoMezzo).jpg" class="rounded-start h-100 w-100" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">@el.TipoMezzo</h5>
+                                <form method="post">
+                                    <input type="hidden" name="tipoMezzo" value="@el.TipoMezzo" />
+                                    <input type="hidden" name="idMezzo" value="@el.IdMezzo" />
+                                    <button class="btn btn-primary" type="submit">Prenota</button>
+                                </form>
+                                <p class="card-text mt-2"><small class="text-body-secondary">#@el.IdMezzo</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            }
+        }
+
+    </div>
+
+
+    <p class="d-inline-flex gap-1">
+        <button class="btn btn-primary w-25" type="button" data-bs-toggle="collapse" data-bs-target="#ebike" aria-expanded="false" aria-controls="container">
+            Ebike <i class="bi bi-arrow-right-short" id="icon-ebike"></i>
+        </button>
+    </p>
+
+    <div id="ebike" class="container p-0 collapse">
+
+        @if (ebike == null || ebike.Count() ==0)
+        {
+            <p>mezzi non disponibili</p>
+        }
+        else
+        {
+            @foreach (var el in ebike)
+            {
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="images/@(el.TipoMezzo).jpg" class="rounded-start h-100 w-100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">@el.TipoMezzo</h5>
+                                    <p class="card-text">Batteria: @el.Batteria%</p>
+                                    <form method="post">
+                                        <input type="hidden" name="tipoMezzo" value="@el.TipoMezzo" />
+                                        <input type="hidden" name="idMezzo" value="@el.IdMezzo" />
+                                        <button class="btn btn-primary" type="submit">Prenota</button>
+                                    </form>
+                                    <p class="card-text mt-2"><small class="text-body-secondary">#@el.IdMezzo</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+
+            }
+        }
+
+    </div>
+    <p class="d-inline-flex gap-1">
+
+        <button class="btn btn-primary w-25" type="button" data-bs-toggle="collapse" data-bs-target="#monopattini" aria-expanded="false" aria-controls="container">
+            Monopattini <i class="bi bi-arrow-right-short" id="icon-monopattini"></i>
+        </button>
+    </p>
+
+    <div id="monopattini" class="container p-0 collapse">
+        @if (monopattino == null || monopattino.Count() == 0)
+        {
+            <p>mezzi non disponibili</p>
+        }
+        else
+        {
+            @foreach (var el in monopattino)
+            {
+                
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="images/@(el.TipoMezzo).jpg" class="rounded-start h-100 w-100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">@el.TipoMezzo</h5>
+                                    <p class="card-text">Batteria: @el.Batteria%</p>
+                                    <form method="post">
+                                        <input type="hidden" name="tipoMezzo" value="@el.TipoMezzo" />
+                                        <input type="hidden" name="idMezzo" value="@el.IdMezzo" />
+                                        <button class="btn btn-primary" type="submit">Prenota</button>
+                                    </form>
+                                    <p class="card-text mt-2"><small class="text-body-secondary">#@el.IdMezzo</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+               
+            }
+        }
+
+    </div>
+</div>
+
+<script>
+    const sezioni = ['ebike', 'bici', 'monopattini'];
+
+    sezioni.forEach(sezione => {
+        const collapse = document.getElementById(sezione);
+        const icon = document.getElementById('icon-' + sezione);
+
+        collapse.addEventListener('show.bs.collapse', () => {
+            icon.classList.remove('bi-arrow-right-short');
+            icon.classList.add('bi-arrow-down-short');
+        });
+
+        collapse.addEventListener('hide.bs.collapse', () => {
+            icon.classList.remove('bi-arrow-down-short');
+            icon.classList.add('bi-arrow-right-short');
+        });
+    });
+</script>
+

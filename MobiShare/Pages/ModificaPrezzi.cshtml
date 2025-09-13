@@ -1,0 +1,36 @@
+﻿@page
+@model MobiShare.Pages.ModificaPrezziModel
+@{
+}
+
+<div class="d-flex flex-column flex-md-row">
+    @await Html.PartialAsync("_Sidebar", Model)
+
+    <div class="container-lg mt-5 pt-4">
+        <h2 class="mb-4">Modifica Prezzi</h2>
+
+        <!-- Form Carta di Credito -->
+        <div id="formParcheggio" class="form">
+            <div class="card p-4 w-75">
+                <form method="post">
+                    <label for="select-mezzo" class="form-label">Tipo Mezzo</label>
+                    <select class="form-select" id="select-mezzo" name="tipoMezzo">
+                        <option value="bici">Bici</option>
+                        <option value="ebike">Ebike</option>
+                        <option value="monopattino">Monopattino</option>
+                    </select>
+
+                        <label for="prezzoFisso" class="form-label">Prezzo Fisso</label>
+                    <input type="text" class="form-control" id="prezzoFisso" name="costoFisso" placeholder="0,0">
+
+                        <label for="prezzoVariabile" class="form-label">Prezzo variabile</label>
+                    <input type="text" class="form-control" id="prezzoVariabile" name="costoVariabile" placeholder="0,0">
+
+                    <button type="submit" class="btn btn-primary mt-3">Modifica</button>
+                </form>
+            </div>
+        </div>
+
+
+    </div>
+</div>

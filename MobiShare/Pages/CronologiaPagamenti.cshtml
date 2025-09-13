@@ -1,0 +1,54 @@
+﻿@page
+@model MobiShare.Pages.CronologiaPagamentiModel
+@{
+    int backOffset = 0;
+    int nextOffset = 0;
+    if (Model.offset == 0)
+    {
+        backOffset = 0;
+        nextOffset += 10;
+    }
+    else
+    {
+        backOffset = Model.offset - 10;
+        nextOffset = Model.offset + 10;
+    }
+}
+
+<div class="d-flex flex-column flex-md-row">
+    @await Html.PartialAsync("_Sidebar", Model)
+
+    <div class="container mt-4 ms-4 pt-5">
+        <div class="d-flex align-items-center gap-2">
+            <h2 class="me-3">Le mie ricariche</h2>
+
+        </div>
+        @if (Model.Ricariche == null || !Model.Ricariche.Any())
+        {
+            <p class="text-muted">Nessuna ricarica trovata.</p>
+        }
+        else
+        {
+            @foreach (var el in Model.Ricariche)
+            {
+
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">@el.Data</h5>
+                                <p class="card-text">@el.CartaDiCredito@el.CartaPrepagata</p>
+                                <p class="card-text m-0">@el.Importo €</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+
+        }
+
+        <a asp-page="CronologiaPagamenti" asp-route-offset="@backOffset" asp-route-limit="10" class="btn btn-primary"> Back</a>
+        <a asp-page="CronologiaPagamenti" asp-route-offset="@nextOffset" asp-route-limit="10" class="btn btn-primary"> Next</a>
+    </div>
+</div>
+

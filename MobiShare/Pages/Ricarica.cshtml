@@ -1,0 +1,97 @@
+﻿@page
+@model MobiShare.Pages.RicaricaModel
+@{
+}
+
+<div class="d-flex flex-column flex-md-row">
+    @await Html.PartialAsync("_Sidebar",Model)
+    
+    <div class="container mt-4 ms-4 pt-5">
+        <div class="d-flex align-items-center gap-2">
+            <h2 class="me-3">Ricarica il tuo conto</h2>
+
+        </div>
+
+        <!-- Scelta metodo di pagamento -->
+        <div class="mb-4">
+            <label class="form-label">Scegli il metodo di pagamento:</label>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="metodo" id="metodoCarta" value="carta" checked>
+                <label class="form-check-label" for="metodoCarta">Carta di credito</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="metodo" id="metodoGift" value="gift">
+                <label class="form-check-label" for="metodoGift">Gift card</label>
+            </div>
+        </div>
+
+        <!-- Form Carta di Credito -->
+        <div id="formCarta" class="form-section">
+            <div class="card p-4">
+                <h5>Pagamento con Carta di Credito</h5>
+                <form method="post" asp-page-handler="CartaCredito">
+                    <div class="mb-3">
+                        <label asp-for="Input.Numero" class="form-label">Numero Carta</label>
+                        <input type="text" class="form-control" asp-for="Input.Numero" placeholder="0000 0000 0000 0000">
+                        <span asp-validation-for="Input.Numero" class="text-danger"></span>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label asp-for="Input.Scadenza" class="form-label">Scadenza</label>
+                            <input type="text" class="form-control" asp-for="Input.Scadenza" placeholder="MM/AA">
+                            <span asp-validation-for="Input.Scadenza" class="text-danger"></span>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label asp-for="Input.Cvc" class="form-label">CVV</label>
+                            <input type="text" class="form-control" asp-for="Input.Cvc" placeholder="123">
+                            <span asp-validation-for="Input.Cvc" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="Input.Importo" class="form-label">Importo</label>
+                        <input type="number" class="form-control" asp-for="Input.Importo" placeholder="Es. 10.00">
+                        <span asp-validation-for="Input.Importo" class="text-danger"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Ricarica</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Form Gift Card -->
+        <div id="formGift" class="form-section">
+            <div class="card p-4">
+                <h5>Ricarica con Gift Card</h5>
+                <form method="post" asp-page-handler="CartaPrepagata">
+                    <div class="mb-3">
+                        <label for="codiceGift" class="form-label">Codice Gift Card</label>
+                        <input type="text" class="form-control" id="codice" name="codice" placeholder="Inserisci il codice">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Riscatta</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    const metodoCarta = document.getElementById('metodoCarta');
+    const metodoGift = document.getElementById('metodoGift');
+    const formCarta = document.getElementById('formCarta');
+    const formGift = document.getElementById('formGift');
+
+    function aggiornaForm() {
+        if (metodoCarta.checked) {
+            formCarta.style.display = 'block';
+            formGift.style.display = 'none';
+        } else {
+            formCarta.style.display = 'none';
+            formGift.style.display = 'block';
+        }
+    }
+
+    metodoCarta.addEventListener('change', aggiornaForm);
+    metodoGift.addEventListener('change', aggiornaForm);
+
+    // Mostra il form corretto al caricamento iniziale
+    aggiornaForm();
+</script>
+<partial name="_ValidationScriptsPartial" />

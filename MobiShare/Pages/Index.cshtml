@@ -1,0 +1,29 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="container mt-5 pt-4 mx-auto">
+
+    <h4 class="text-center mb-5">Scopri i nostri veicoli</h4>
+
+    <div class="row justify-content-center">
+        @foreach (var el in Model.costi)
+        {
+            <div class="col-md-4 mb-4 d-flex justify-content-center">
+                <div class="card h-100" style="width: 18rem;">
+                    <img src="images/@(el.TipoMezzo).jpg" class="card-img-top" alt="Monopattino Elettrico">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">@el.TipoMezzo</h5>
+                        <p class="card-text mb-1 mt-2"><strong>Prezzo fisso:</strong> @el.CostoFisso €</p>
+                        <p class="card-text"><strong>Prezzo al minuto:</strong> @el.CostoVariabile €</p>
+                        <div class="mt-auto">
+                            <a asp-page="SelezioneParcheggio" class="btn btn-primary">Prenota ora</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
